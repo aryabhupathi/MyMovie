@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MainPageLayout from "../../../boxb/src/components/MainPageLayout";
+import MainPageLayout from "../../src/components/MainPageLayout";
 
 import { useShows } from "../misc/custom-hooks";
 import { apiGet } from "../misc/config";
