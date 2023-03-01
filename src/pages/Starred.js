@@ -3,7 +3,7 @@ import MainPageLayout from "../../src/components/MainPageLayout";
 
 import { useShows } from "../misc/custom-hooks";
 import { apiGet } from "../misc/config";
-import ShowGrid from "../../../boxb/src/components/show/ShowGrid";
+import ShowGrid from "../../../src/components/show/ShowGrid";
 
 const Starred = () => {
   const [starred] = useShows();
