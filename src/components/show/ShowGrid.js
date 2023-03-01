@@ -4,7 +4,7 @@ import ShowCard from "./ShowCard";
 import { FlexGrid } from "../styled";
 
 import IMAGE_NOT_FOUND from "../../images/ito.png";
-import { useShows } from "../../../../src/misc/custom-hooks";
+import { useShows } from "../../../src/misc/custom-hooks";
 
 const ShowGrid = ({ data }) => {
   const [starredShows, dispatchStarred] = useShows();
